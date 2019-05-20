@@ -9,6 +9,6 @@ namespace MyInformationApp
         public int Id { get; set; }
         public string Name { get; set; }
         public string RegNo { get; set; }
-
+        public int Age { get; set; }
     }
 }
