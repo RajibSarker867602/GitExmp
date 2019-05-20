@@ -4,7 +4,11 @@ using System.Text;
 
 namespace MyInformationApp
 {
-    class Student
+    public class Student
     {
+        public int Id { get; set; }
+        public string Name { get; set; }
+        public string RegNo { get; set; }
+
     }
 }
